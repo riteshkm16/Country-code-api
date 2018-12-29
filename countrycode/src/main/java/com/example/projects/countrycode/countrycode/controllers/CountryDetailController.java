@@ -29,31 +29,7 @@ public class CountryDetailController {
 	public String getDocs()
 	{
 		System.out.println(CountryUtil.getTime()+"  [LOG]: ---  In the CountryDetailController class and the getDocs function    ---");
-		return "\r\n" + 
-				"base url : /api.countrydetail\r\n" + 
-				"<br/>\r\n" + 
-				"Default url                          <br/>\r\n" + 
-				"<a href=\"/api.countrydetail/\">/</a>\r\n" + 
-				"\r\n" + 
-				"<br/>\r\n" + 
-				"Docs                                 <br/>\r\n" + 
-				"<a href=\"/api.countrydetail/docs\">/</a>\r\n" + 
-				"\r\n" + 
-				"<br/>\r\n" + 
-				"Get data from the country name       <br/>\r\n" + 
-				"<a href=\"/api.countrydetail/name/{countryName}\">/dialcode/{countryName}</a>\r\n" + 
-				"\r\n" + 
-				"\r\n" + 
-				"<br/>\r\n" + 
-				"Get data from the country code       <br/>\r\n" + 
-				"<a href=\"/api.countrydetail/code/{countryCode}\" >/dialcode/{countryCode}</a>\r\n" + 
-				"\r\n" + 
-				"\r\n" + 
-				"\r\n" + 
-				"<br/>\r\n" + 
-				"Get data from the country dial code  <br/>\r\n" + 
-				"<a href=\"/api.countrydetail/dialcode/{countryDialCode}\" >/dialcode/{countryDialCode}</a>\r\n" + 
-				"";
+		return "Documentation comming soon";
 	}
 	
 	@GetMapping(value="/init")
