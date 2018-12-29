@@ -1,3 +1,6 @@
+/*@author : Ritesh Kishore Mishra
+ *email : riteshkm16@gmail.com
+ */
 package com.example.projects.countrycode.countrycode.modals;
 
 public class CountryDetail {
